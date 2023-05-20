@@ -22,15 +22,15 @@ let bool3 = false;
 let bool4 = false;
 let bool5 = false;
 
-document.write('init1')
-document.write('init2')
-document.write('string3')
-document.write('string4')
-document.write('string5')
+document.write(init1)
+document.write(init2)
+document.write(string3)
+document.write(string4)
+document.write(string5)
 
-document.write('float1')
-document.write('float2')
-document.write('float3')
-document.write('bool4')
-document.write('bool5')
+document.write(float1)
+document.write(float2)
+document.write(float3)
+document.write(bool4)
+document.write(bool5)
 
