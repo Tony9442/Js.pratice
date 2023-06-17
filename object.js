@@ -6,8 +6,8 @@ let person = {
   country: "Nigeria"
  };
 console.log(person.name) ;
-console.log(person.age);
-console.log(person.email);
+console.log(person['age']);
+console.log(person['email']);
 console.log(person.gender);
 console.log(person.country)
 
@@ -20,7 +20,7 @@ class Human {
       this.name = name;
       this.age = age;
   }
-  
+
   talk() {
     return "speaks" + this.name
 
@@ -44,7 +44,7 @@ class Boy extends Human {
   } 
 }
 
-let boy = new Boy('chi');
+let boy = new Boy('chidera can');
  boy.speak();
 
  
