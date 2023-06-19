@@ -8,7 +8,7 @@ let init1 = 20;
 let init2 = 30;
 let init3 = 10;
 let init4 = 5;
-let init5 = 080;
+let init5 = 0;
 
 let float1 = 10.1;
 let float2 = 20.2;
